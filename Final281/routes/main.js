@@ -1,7 +1,6 @@
 var Client = require('node-rest-client').Client;
 var http = require('http') ;
-var count = "";
-var endpoint1 = "http://cmpe281-lab-1979921722.us-east-1.elb.amazonaws.com/userdb/credentials";
+var endpoint1 = "http://final-elb-1941001504.us-east-1.elb.amazonaws.com/final/login";
 
 exports.add = function(req, res) {
 	
